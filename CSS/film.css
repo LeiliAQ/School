@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Nazanin;
+    src: url('../Font/Vazir-Regular.ttf');
+}
+
+body{
+    margin: 5% auto;
+    font-size: 16px;
+    font-family: Nazanin;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 110, 255);
+    align-items: center;
+}
+::selection{
+    background-color: rgb(0, 108, 161);
+    color: white;
+}
+
+main {
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+}
+
+.haft , .hasht , .noh , .add {
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border-radius: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 10px 150px;
+    transition: .4s;
+}
+
+.noh {
+    padding: 10px 155px;
+}
+
+.add {
+    padding: 10px 115px;
+}
+
+.shayad {
+    margin-top: 75px;
+}
+
+a:hover {
+    padding: 10px 160px;
+}
+
+
+main p {
+    color: rgb(0, 110, 255);
+    font-size: 1.3em;
+}
+
+@media screen and (max-width:600px) {
+    main {
+        padding: 10px;
+    }
+}

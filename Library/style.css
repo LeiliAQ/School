@@ -1,0 +1,122 @@
+@font-face {
+    font-family: font;
+    src: url('../Font/Yekan.ttf');
+}
+
+body {
+    background-color: #006ca1;
+    font-family: font;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #006ca1;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(5 , 255px);
+}
+
+#home {
+    color: #006ca1;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+i {
+    font-size: 1.7em;
+}
+
+
+#searchBTNI {
+    color: white;
+    font-size: 1.3em;
+}
+
+#searchBTN {
+    background-color: #006ca1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#searchDIV {
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px 30px;
+    max-width: 271px;
+    max-height: 41px;
+}
+
+#searchTXT {
+    color: #008dd3;
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1em;
+    border: none;
+    font-family: font;
+    outline: none;
+    width: 200px;
+    max-height: 34px;
+}
+input {
+    font-family: font;
+}
+
+::placeholder {
+    color: #006ca1;
+    font-family: font;
+}
+
+#add {
+    background-color: white;
+    color: #006ca1;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: block;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        grid-template-columns: repeat(1 , 0px);
+    }
+
+    .book {
+        margin-right: 20px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+}

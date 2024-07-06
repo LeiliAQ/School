@@ -1,0 +1,155 @@
+body{
+  margin: 0px;
+  font-size: 16px;
+  background-color: #F7F8F3;
+}
+
+@font-face {
+    font-family: yekan;
+    src: url('../Font/Yekan.ttf');
+}
+
+@font-face {
+  font-family: Nazanin;
+  src: url('../Font/BRoya.ttf');
+}
+
+::selection{
+  background-color: #006ca1;
+  color: white;
+}
+
+.main-container{
+  width: 100%;
+  max-width: 1800px;
+  margin: 0px auto;
+  font-size: 1em;
+}
+
+.lmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: Nazanin;
+  font-size: 1.5em;
+}
+p{
+  font-family: Nazanin;
+}
+
+/* Main Asli */
+h2 {
+  font-family: yekan;
+  color: #444;
+}
+
+main {
+  margin-top: 60px;
+  margin-bottom: 330px;
+}
+
+main .d2 {
+  display: grid;
+  grid-template-columns: repeat(2 , 50%);
+  grid-template-rows: repeat(2 , 50px);
+}
+
+main .d3 {
+  margin-top: 50px;
+}
+
+.dEmtiaz , .dEtelaiyeMoalem , .dEtelaiyeMoaven , .dPanel {
+  background-color: #006ca1;
+  text-align: center;
+  border-radius: 15px;
+  width: 380px;
+  height: 50px;
+  border: 1px solid white;
+}
+
+main .d2 {
+  width: 380px;
+  height: 50px;
+}
+
+.dKetab , .dFilm , .dOnline , .dEtelaiye {
+  background-color: #006ca1;
+  text-align: center;
+  border-radius: 15px;
+  width: 190px;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.dFilm , .dEtelaiye {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.dKetab , .dOnline {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+main div a {
+  color: white;
+}
+
+a p {
+  padding: 5px;
+  margin: 0px;
+}
+
+.LinkFooter{
+  text-decoration: underline;
+}
+
+main a , .container a{
+  transition: 0.4s;
+}
+
+main a:hover {
+  font-size: 1.7em;
+}
+
+
+/* Responsive Page */
+
+@media screen and (max-width:700px) {
+  main{
+    flex-direction: column;
+  }
+
+  a.aFilm{
+    display: none;
+  }
+
+  /* nav */
+
+  body {
+    margin: 0px;
+  }
+  
+  main {
+    margin-top: 60px;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+
+  footer {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  body {
+    margin-bottom: 0px;
+  }
+}
+
+

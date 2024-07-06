@@ -1,0 +1,58 @@
+body {
+    background-color: #006ca1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: font;
+    src: url('/Font/Iranian\ Sans.ttf');
+}
+  @font-face {
+    font-family: font2;
+    src: url('/Font/BNAZANIN.TTF');
+}
+
+.main_div {
+    min-height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 5px;
+    margin-top: 40px;
+    text-align: center;
+    color: #006ca1;
+    font-family: font;
+    position: relative;
+}  
+
+hr {
+    border: 3px solid #006ca1;
+    border-radius: 5px;
+    margin: 0px 25px;
+}
+
+.main_table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: font2;
+    font-size: 1.3em;
+}
+
+td {
+    background-color: #006ca1;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a i {
+    color: #006ca1;
+    font-size: 1.8em;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}

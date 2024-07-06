@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Nazanin;
+  src: url('../Font/BNAZANIN.TTF');
+}
+
+body{
+  margin: 0px;
+  font-size: 16px;
+  font-family: Nazanin;
+}
+
+::selection{
+  background-color: rgb(0, 108, 161);
+  color: white;
+}
+
+.main-container{
+  width: 100%;
+  max-width: 1800px;
+  margin: 0px auto;
+  font-size: 1em;
+}
+/* Main */
+ 
+main p {
+  font-size: 1.3em;
+  color: #444;
+}
+
+table {
+  width: 500px;
+  border-collapse: collapse;
+}
+
+th , td {
+  border-bottom: 1px solid rgb(83, 172, 216);
+  text-align: center;
+  font-size: 1.3em;
+}
+
+tr:nth-child(even){
+  background-color: rgb(83, 172, 216);
+}
+
+tr:nth-child(even){
+  color: white;
+}
+tr:nth-child(odd){
+  color: rgb(0, 170, 255);
+}
+
+tr:nth-child(even) a{
+  color: white;
+  text-decoration: none;
+}
+tr:nth-child(odd) a{
+  color: rgb(0, 170, 255);
+  text-decoration: none;
+}
+
+tr:nth-child(even) a i{
+  color: white;
+}
+tr:nth-child(odd) a i{
+  color: rgb(0, 170, 255);
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Responsive */
+@media screen and (max-width:700px) {
+  table {
+    width: 200px;
+  }
+
+  main {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}

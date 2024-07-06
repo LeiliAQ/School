@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Nazanin;
+    src: url('./../Font/BNAZANIN.TTF');
+}
+body {
+    margin: 5px;
+    font-size: 16px;
+    font-family: Nazanin;
+}
+
+::selection{
+    background-color: rgb(0, 108, 161);
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    font-family: Nazanin;
+    margin-top: 15px;
+    background-color: rgb(194, 194, 194);
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 200px;
+}
+
+.help {
+    width: 180px;
+}
+
+::placeholder {
+    font-family: Nazanin;
+    font-size: 1.3em;
+    color: #444;
+}
+
+select {
+    width: 221px;
+    border-radius: 25px;
+    font-size: 1.2em;
+    font-family: Nazanin;
+    margin-top: 15px;
+}
+
+#class {
+    width: 216px;
+}
+
+button {
+    margin-top: 15px;
+    border-radius: 25px;
+    width: 257px;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    background-color: rgb(0, 204, 255);
+    color: white;
+    font-family: Nazanin;
+} 
+
+
+.link {
+    width: 235px;
+}

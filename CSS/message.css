@@ -1,0 +1,34 @@
+@font-face {
+    font-family: font;
+    src: url('../Font/Vazir-Regular.ttf');
+}
+
+body {
+    background-color: #006ca1;
+    font-family: font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    text-align: center;
+    background-color: white;
+    color: #006ca1;
+    height: 150px;
+    width: 350px;
+    border-radius: 15px;
+    margin-top: 60px;
+    font-size: 1.25em;
+}
+
+a{
+    transition: .7s;
+    color: #006ca1;
+}
+
+a:hover {
+    border: 2px solid #006ca1;
+    border-radius: 5px;
+    padding: 5px;
+}

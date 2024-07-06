@@ -1,0 +1,114 @@
+@font-face {
+    font-family: Nazanin;
+    src: url('/Font/BNAZANIN.TTF');
+}
+
+::selection{
+    background-color: rgb(0, 108, 161);
+    color: white;
+}
+
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-family: Nazanin;
+}
+
+video {
+    width: 850px;
+    height: 400px;
+}
+
+.video , .command {
+    margin-top: 40px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    margin-right: 100px;
+    color: #222;
+}
+
+.command {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(0, 60, 255);
+}
+
+.command div a {
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    transition: .4s;
+}
+
+.command div a:hover {
+    font-size: 1.7em;
+}
+
+.command div {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+.info form {
+    margin-right: 10px;
+}
+
+.info {
+    display: flex;
+    
+}
+
+.main {
+    font-weight: bold;
+}
+
+@media screen and (max-width:900px) {
+    video {
+        width: 300px;
+        height: 200px;
+        margin-top: 32px;
+    }
+
+    .VideoCenter {
+        text-align: center;
+    }
+
+    body {
+        margin: 5px;
+        margin-top: 0px;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2,1fr);
+        margin: 0px;
+    }
+
+    .command div {
+        margin-top: -10px;
+    }
+
+    .alame {
+        display: none;
+    }
+
+    .video, .command {
+        margin-top: 22px;
+    }
+
+    
+    .main-for-mobile {
+        margin: auto 8px;
+    }
+}

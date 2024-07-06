@@ -1,0 +1,82 @@
+@font-face {
+    font-family: font;
+    src: url("../Font/Iranian\ Sans.ttf");
+}
+
+body {
+    background-color: #006ca1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: font;
+}
+
+.main {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    color: #006ca1;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-family: font;
+}
+input {
+    display: block;
+}
+
+input[type="text"] , input[type="number"] {
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #006ca1;
+    transition: .5s;
+    color: #006ca1;
+    font-family: font;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    color: #006ca1;
+    font-family: font;
+}
+
+input[type="text"]:focus , input[type="number"]:focus{
+    border: 1px solid #006ca1;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin-top: 50px;
+}
+
+select {
+    padding: 5px;
+    border-radius: 10px;
+    font-family: font;
+}
+
+button {
+    background-color: #006ca1;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    font-family: font;
+    border: none;
+    outline: none;
+    display: block;
+    transition: .5s;
+    margin-top: 50px;
+}
+
+button:hover {
+    width: 120px;
+    height: 40px;
+}

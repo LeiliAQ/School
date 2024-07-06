@@ -1,0 +1,115 @@
+@font-face {
+    font-family: FontIR;
+    src: url('../Font/Iranian\ Sans.ttf');
+}
+
+::selection{
+    color: white;
+    background-color: rgb(0, 108, 161);
+}
+
+body{ 
+    margin: 0px;
+    font-size: 16px;
+    font-family: FontIR;
+    background-color: #F7F8F3;
+    color: rgb(0, 0, 0);
+}
+
+/* Frist Main */
+
+.nlogin {
+    text-align: center;
+}
+
+.nlogin a{
+    color: rgb(0, 108, 161);
+    text-decoration: none;
+    transition: .4s;
+}
+
+.nlogin a:hover{
+    text-decoration: underline;
+}
+
+.na , .Qlist {
+    text-align: center;
+    transition-delay: 0.3s;
+    transition: .6s;
+}
+
+.Qlist {
+    margin-top: 60px;
+}
+
+.add , .QlistA {
+    background-color: rgb(0, 108, 161);
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.na:hover , .Qlist:hover{
+    transform: rotateZ(20deg);
+}
+
+/* Main Styles */
+main {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.questions {
+    background-color: rgb(0, 108, 161);
+    color: white;
+    display: inline-block;
+    width: 450px;
+    text-align: start;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.title {
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 200px;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+hr {
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 430px;
+}
+
+.desc {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 1em;
+}
+
+#icon , #icons {
+    display: none;
+}
+
+  
+
+/* Responsive */
+@media screen and (max-width:700px) {
+    .questions {
+        width: 200px;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+    #icon , #icons {
+        display: inline;
+    }
+}

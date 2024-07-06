@@ -1,0 +1,94 @@
+body {
+    margin: 0px auto;
+    max-width: 1800px;
+    font-size: 16px;
+    background-color: #F7F8F3;
+    color: #006ca1;
+}
+
+@font-face {
+    font-family: vazir;
+    src: url('../Font/Vazir-Regular.ttf');
+}
+
+@font-face {
+    font-family: yekan;
+    src: url('../Font/Yekan.ttf');
+}
+
+/* header styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 25px;
+    border-radius: 5px;
+    font-family: vazir;
+    background-color: white;
+    font-size: 1.2em;
+    color: #006ca1;
+}
+
+.nav-right {
+    text-align: center;
+}
+
+.nav-left a{
+    margin-right: 15px;
+}
+
+.log-out {
+    color: #006ca1;
+    text-decoration: none;
+    border: 1px solid #006ca1;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.home-btn {
+    color: #006ca1;
+}
+.home-btn i {
+    font-size: 1.4em;
+}
+
+/* Main Styles */
+main {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input {
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: #006ca1;
+    color: white;
+    font-weight: bold;
+    font-family: vazir;
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 200px;
+}
+
+label {
+    font-family: vazir;
+}
+
+.security-question {
+    text-decoration: none;
+    color: #006ca1;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #006ca1;
+    font-family: vazir;
+    display: inline-block;
+    margin-top: 20px;
+}

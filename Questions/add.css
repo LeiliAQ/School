@@ -1,0 +1,52 @@
+@font-face {
+    font-family: FontIR;
+    src: url('../Font/Iranian\ Sans.ttf');
+}
+body{
+    margin: 0px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-family: FontIR;
+    color: rgb(0, 0, 0);
+}
+
+::placeholder {
+    font-family: FontIR;
+}
+
+input {
+    height: 10px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(206, 206, 206);
+    color: white;
+    margin-top: 20px;
+    font-family: FontIR;
+    font-size: 16px;
+}
+
+button {
+    outline: none;
+    font-family: FontIR;
+    border: none;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    font-size: 1.1em;
+    border-radius: 25px;
+    padding: 5px 15px;
+    margin-top: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+button:hover {
+    padding: 5px 40px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}

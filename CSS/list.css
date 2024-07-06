@@ -1,0 +1,75 @@
+a {
+    text-decoration: none;
+}
+
+td {
+    border-right: 2px solid rgb(0, 191, 255);
+    border-bottom: 2px solid rgb(0, 191, 255);
+    text-align: center;
+}
+
+@font-face {
+    font-family: font;
+    src: url('../Font/Iranian\ Sans.ttf');
+}
+body {
+    font-family: font;
+    font-size: 15px;
+}
+
+#searchBTNI {
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  #searchBTN {
+    background-color: #008dd3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #searchDIV {
+    background-color: #008dd3;
+    border-radius: 25px;
+    display: inline-block;
+    padding: 10px 30px;
+    max-width: 271px;
+    max-height: 41px;
+  }
+  
+  #searchTXT {
+    color: #008dd3;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 1em;
+    border: none;
+    font-family: font;
+    outline: none;
+    width: 200px;
+    max-height: 34px;
+  }
+  input {
+    font-family: font;
+  }
+
+
+#aHome {
+  color: white;
+  background-color: #008dd3;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home {
+  font-size: 1.4em;
+}
