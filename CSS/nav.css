@@ -7,7 +7,7 @@
 
 nav {
     width: 100%;
-    background-image: linear-gradient(to right, #f7f7f7, #e7e7e7);
+    background-image: linear-gradient(to right, #f7f7f7, #e7e7e7) center/cover;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;

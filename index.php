@@ -17,7 +17,7 @@ list($Config_username ,$Config_id ,$Config_question ,$Config_qkey ,$Config_rank 
     </head> 
     <body dir="rtl">
         <div class="main-container">
-            <?php include './config/nav.php' ?>
+            <?php include './config/nav-index.php' ?>
             <div class="lmain">
                 <main>
                     <div class="d1">

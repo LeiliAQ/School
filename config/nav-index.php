@@ -43,16 +43,16 @@ if (isset($_SESSION['UserEmail']) && isset($_SESSION['UserPass'])) {
         <i id="bar-icon-blur" style="font-size: 30px; display:none;" class="fas fa-times" onclick="onBlur()"></i>
     </div>
     <div class="nav-right">
-        <a href="../index.php" class="aAsli">صفحه اصلی</a>
-        <a href="../film.php" class="aAsli">محتوا های آموزشی</a>
-        <a href="../Questions/q.php" class="aAsli">پرسش / پاسخ</a>
+        <a href="../School/index.php" class="aAsli">صفحه اصلی</a>
+        <a href="../School/film.php" class="aAsli">محتوا های آموزشی</a>
+        <a href="../School/Questions/q.php" class="aAsli">پرسش / پاسخ</a>
     </div>
     <div class="nav-left">
         <?php if (isset($CEmail) && isset($CPass)) {?>
         <span style="display: block;"><?= $Text ?></span>
         <?php } ?>
         <?php if (! isset($CEmail) && ! isset($CPass)) {?>
-            <a href="../login.php" class="aKetab">
+            <a href="../School/login.php" class="aKetab">
                 ورود به حساب
             </a>
         <?php } else { ?>
